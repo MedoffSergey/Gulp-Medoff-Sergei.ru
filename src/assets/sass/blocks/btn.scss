@@ -1,0 +1,78 @@
+.btn {   
+    display: inline-block;
+    vertical-align: top;
+  
+    background: none;
+    
+    border: solid 1px $pink;
+    
+    border-radius: 2px;
+
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 500;
+    color: $pink;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    
+    transition: background .3s linear, color .3s linear;
+
+        &--black{
+            color: $white;
+            background-color: #202E35;
+            padding: 13px 26px;
+            border: 0;
+            outline: 0;
+            
+        }
+
+        &--pink{
+            color: $white;
+            background-color: $pink;
+            padding: 15px 6px;
+            border: 0;
+            border-radius: 2px;
+            outline: 0;
+            height:48px; 
+            width: 215px;            
+            margin: 40px 0 0 30px;
+            &:hover{
+                background-color: #EB0148 ;
+            }
+}
+            &--modal{
+            color: $white;
+            background-color: $pink;
+            padding: 12px 66px;
+            
+            border-radius: 5px;
+            outline: 0;
+            height:50px; 
+            width: 200px;            
+            margin: 40px 0 0 0px;
+            &:hover{
+                background-color: $white ;
+            }
+        }
+    
+
+
+        &:hover {
+            color: $white;
+            background-color: $pink;
+            border: 0;
+            box-shadow: $shadow;
+        }
+      
+
+
+}
+
+
+.btn__position {
+    margin: 12px 0;
+    padding: 7px 18px;
+    width: 220px;
+    
+}

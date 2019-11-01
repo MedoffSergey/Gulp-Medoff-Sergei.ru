@@ -1,0 +1,95 @@
+@font-face{
+
+font-family: 'SuisseIntl';
+
+src: url('Suisse Intl/SuisseIntl-Medium.otf');
+
+src: url('Suisse Intl/SuisseIntl-Medium.otf?iefix') format('otf'),
+
+
+
+
+
+url('Suisse Intl/WebFont.svg#webfont') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+/*****************************************************/
+
+
+@import "vars";
+
+
+/* Default styles */
+html {
+    max-width: 100%;
+
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 20px;
+    background-color: $gray;
+
+    font-family: 'SuisseIntl', sans-serif;
+    color: $black;
+    
+    
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a{
+    color: $black;
+    text-decoration: none;
+
+}
+
+
+@import "blocks/btn";
+@import "blocks/contacts";
+@import "blocks/content";
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/logo";
+@import "blocks/page";
+@import "blocks/nav";
+@import "blocks/solutions";
+@import "blocks/primary";
+@import "blocks/press";
+@import "blocks/info";
+@import "blocks/news";
+@import "blocks/support";
+@import "blocks/service";
+@import "blocks/modal";
+@import "blocks/media";
+@import "blocks/product";
+@import "blocks/slider";
+@import "blocks/footer";
+@import "blocks/news_stranica";
+@import "blocks/iztt";
+@import "blocks/error";
+@import "blocks/social";
+@import "blocks/outsource";
+
+/* Bootstrap */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/transitions";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/modal";
+
+
+/* Vendor */ 
+@import "vendor/slick";

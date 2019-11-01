@@ -1,0 +1,71 @@
+.footer {
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+	background-color: #05141d;
+}
+ 
+
+.footer__title{
+
+
+	color: $white;
+	font-size: 22px;
+	line-height: 26px;
+	margin-top: 23px;
+	
+}
+
+.footer__info{
+	display: flex;
+	list-style: none;
+	margin-top: 9px 0 0 0;
+	width: 77%;
+	margin-left: 120px;
+}
+
+.footer__link{
+	color : $white;
+	text-decoration: none;
+}
+
+
+.footer__row{
+	border-bottom: 1px solid rgba(255,255,255, .1);
+	padding: 20px 140px;
+	flex: 1;
+	
+	
+}
+
+.footer__agreements {
+	
+	color: $white;
+	opacity: 0.3;
+	
+}
+
+
+
+.footer__bottom{
+
+	list-style: none;
+	background-color: #05151D;
+	padding: 0;
+	margin: 0;
+}
+
+.number__right{
+	float: right;
+}
+
+.maps {
+	color: white;
+	opacity: 0.4;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.footer__adress{
+    color: white;
+}

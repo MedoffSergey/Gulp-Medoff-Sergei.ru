@@ -1,0 +1,95 @@
+.support{
+	height: 460px;
+	background-color: #202E35;
+	color: $white;
+    box-shadow: $shadow;
+}
+
+.support__title {
+    
+  
+    font-size: 40px;
+    line-height: 50px;
+    
+    font-weight: 500;
+    width: 370px;
+    letter-spacing: -1px;
+    
+}
+
+.support__text {
+    margin: 1.2rem 0;
+     
+
+    font-size: 16px;
+    line-height: 24px;
+    
+    font-weight: 400;
+    width: 300px;
+    
+    opacity: 0.4;
+
+}
+
+
+.support__position{
+    margin:80px $border 80px $border;
+}
+
+.left {
+    float: left;
+    display: inline-block;
+}
+
+.right{
+float: right;
+width: 580px;
+}
+
+.text__right{
+margin-top: 37px;
+font-size: 13px;
+line-height: 18px;
+opacity: 0.5;
+width: 300px;
+height: 55px;
+}
+
+
+.top{
+    float: right;
+    margin-top: 15px;
+}
+.contact{
+    background-color: #202E35;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    border: 1px solid #202E35;
+    border-bottom: 1px solid rgba(255,255,255, .1);
+
+
+    margin-left: 20px;
+    width: 260px;
+    height: 25px;
+}
+
+.massage{
+    color: white;
+    background-color: #202E35;
+    outline: none;
+    border: 1px solid #202E35;
+    border-bottom: 1px solid rgba(255,255,255, .1);
+    margin: 60px 0 0 35px;
+    font-size: 16px;
+    
+    width: 540px;
+    height: 25px;
+     
+}
+
+.footer__right{
+    display: flex;
+    margin-left: 35px;
+}

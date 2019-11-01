@@ -1,0 +1,120 @@
+@media  (max-width: 320px) {
+.header {
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+	
+	&__inner{
+		background-color: $gray;
+		height: 70px;
+	   
+	    padding: 0px 20px ; 
+	}
+}
+
+.nav__toplink{
+	display: none;
+}
+
+.container__bottom{
+	display: none;
+}
+
+
+
+.intro{
+	max-width: 100%;
+}
+.intro__title{
+	font-size: 26px;
+	line-height: 30px;
+	max-width: 80%; 
+	margin-left: 20px;
+}
+
+.intro__subtitle{
+	font-size: 26px;
+	line-height: 30px;
+	max-width: 80%;
+	margin-left: 20px; 
+}
+
+.intro__position {
+    margin: 0 0 ;
+    margin-top: 400px;
+    
+}
+.btn--black{
+margin-left: 20px; 	
+}
+
+.fon__img{
+	display: block;
+	position: absolute;
+
+	max-width: 320px;
+	height: 220px;
+	bottom: 100px;
+	right: 120px;
+	
+}
+
+.intro__ul{
+    display: inline-block;
+    list-style: none;
+    
+    padding: 0;
+
+
+}
+.intro__li{
+    
+    background-color: $white;
+
+    
+    position: relative;
+
+    padding: 190px 80px 0 10px; 
+    margin: 100px 10px 0 10px;
+    height: 125px;
+    width: 300px;
+    font-size: 1.3rem;
+    box-shadow: $shadow;
+    padding-left: 2rem;
+
+
+        &:hover{
+        background-color: $pink;
+        transition: background .3s linear, color .3s linear;
+
+    }
+}
+
+.intro__img {
+    
+	position: relative;
+	left : 160px;
+	float: right;
+	height : 80px;
+	width : 80px
+}
+
+.intro__link{
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+
+
+
+}
+
+.intro__text{
+     font-size: 1rem;
+     line-height: 24px;
+
+     opacity: 0.4;
+    
+
+}
+}

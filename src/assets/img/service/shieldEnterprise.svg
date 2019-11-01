@@ -1,0 +1,10 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="25" fill="#272727"/>
+<path d="M25 39.3321V10.7705" stroke="#EFD195" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M39.2809 25H10.7192" stroke="#EFD195" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M23.8698 10.6165C23.8698 10.6165 10.3595 22.9966 23.8698 39.2295" stroke="#EFD195" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M26.1301 10.6165C26.1301 10.6165 39.6404 22.9966 26.1301 39.2295" stroke="#EFD195" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M35.7363 34.0411C31.5239 31.5239 23.7157 28.6986 14.2637 34.0411" stroke="#EFD195" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M35.8392 15.9076C31.6268 18.4761 23.7159 21.4041 14.0583 15.8562" stroke="#EFD195" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M10.75 25C10.75 17.1437 17.1437 10.75 25 10.75C32.8513 10.75 39.1999 17.1391 39.25 25.0022C39.2488 32.8575 32.8556 39.25 25 39.25C17.1437 39.25 10.75 32.8563 10.75 25Z" stroke="#EFD195" stroke-width="1.5"/>
+</svg>

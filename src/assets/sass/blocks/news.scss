@@ -1,0 +1,115 @@
+.news {
+    
+    height: 520px;
+    background-color: $gray;
+}
+
+.news__title {
+  
+    font-size: 40px;
+    line-height: 50px;
+    color: $black;
+    font-weight: 600;
+}
+
+.news__position {
+    margin: 80px $border;
+    
+    position: relative;
+}
+
+
+
+.news__ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+
+}
+
+.news__li {
+    display: inline-block;
+    background-color: $white;
+
+    box-shadow: $shadow;    
+}
+
+.news__link {
+    text-decoration: none;
+    color: $black;
+    font-size: 18px;
+    line-height: 26px;
+    float:right;
+    
+}
+
+
+
+.news__data {
+     
+     opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.news__item {
+    
+    background-color: $white; 
+    
+    margin: 0 40px 0 0; 
+    
+    height: 280px;  
+    width: 280px;
+    padding: 30px 30px 0 30px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: solid 4px $pink;
+
+    &:hover{
+        background-color: $pink;
+        transition: background .3s linear, color .3s linear;
+    }
+    
+
+}
+
+.news__item:last-child{
+           margin: 0 0 0 0px; 
+        }
+
+
+.news__img {
+    width: 560px;
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/news.jpg");
+    background-image: url("../img/news.jpg") ; 
+    background-blend-mode: multiply, normal;  
+}
+
+.news__img1 {
+    width: 560px;
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/news.jpg");
+    background-image: url("../img/news1.jpg") ; 
+    background-blend-mode: multiply, normal;  
+}
+
+.news__img2 {
+    width: 560px;
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/news.jpg");
+    background-image: url("../img/news2.jpg") ; 
+    background-blend-mode: multiply, normal;  
+}
+
+.news__img3 {
+    width: 560px;
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/news.jpg");
+    background-image: url("../img/news3.jpg") ; 
+    background-blend-mode: multiply, normal;  
+}
+.news__one{
+    color: $white;
+}

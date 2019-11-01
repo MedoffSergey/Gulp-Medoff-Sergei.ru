@@ -1,0 +1,147 @@
+ .solutions{
+    height: 490px;
+    padding: 0px $border;
+    margin-top: 190px;
+    
+}
+
+.solutions__position{
+       display: flex;
+       justify-content: space-between;
+    
+}
+.solutions__title-top {
+    margin-bottom: 40px;
+      
+    
+    font-size: 40px;
+    line-height: 50px;
+    color: $black;
+    font-weight: 500;
+}
+
+.solutions_all{
+    margin: 20px 15px 0 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: $black;
+    font-weight: 800;
+    color: $black;
+    
+        &:hover{
+        color: $pink;
+        transition: color .3s linear;
+    }
+}
+
+ .portfolio {
+    position: relative;
+}
+
+.portfolio__title{
+    text-align: center;
+    margin: 20px auto 0 auto;
+    max-width: 80%;
+    opacity: 0.5;
+
+
+}
+.portfolio__slider {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+
+    &:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        background: $white url("../img/ajax-loader.gif") center no-repeat;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    &.slick-initialized {
+        overflow: visible;
+
+        &:after {
+            display: none;
+        }
+    }
+}
+
+.portfolio__item {
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+
+
+
+        &:hover{
+        background-color: $pink;
+        transition: color .9s linear;
+
+    }
+
+}
+
+.portfolio__link {
+    display: block;
+    outline: 0;
+}
+
+.portfolio__img {
+    
+    margin: 50% auto 0 auto;
+    
+
+    transition: opacity .1s linear;
+}
+
+
+
+.portfolio__arrow {
+    padding: 0;
+
+    background: none;
+    border: 0;
+    cursor: pointer;
+
+    position: absolute;
+    margin-top: 240px;
+    margin-right: 20px;
+    z-index: 2;
+
+    &:hover {
+        .portfolio__arrow-icon {
+            fill: $pink;
+        }
+    }
+
+    &:focus {
+        outline: 0;
+    }
+
+    &--prev {
+        top:-3px;
+        right: 33px;
+        transform: translateY(-50%) rotate(180deg);
+    }
+
+    &--next {
+        right: 0rem;
+        transform: translateY(-50%);
+    }
+}
+
+.portfolio__arrow-icon {
+    width: 20px;
+    height: 20px;
+
+    fill: #c5c5c5;
+    transition: fill .1s linear;
+}
